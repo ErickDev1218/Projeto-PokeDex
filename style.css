@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+@font-face {
+    font-family: poketrans;
+    src: url(font/Pokemon\ Hollow.ttf);
+}
+@font-face {
+    font-family: pokefull;
+    src: url(font/Pokemon\ Solid.ttf);
+}
+
+
+body{
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: auto;
+    width: 100%;
+    /* max-height: 100%; */
+}
+
+.sec_prin{
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    color: black;
+    overflow: hidden;
+    max-width: 40%;
+    margin: auto;
+    font-family: pokefull;
+    font-size:0.9em;
+    margin-top: 20px;
+    position: relative;
+    left: -10%;
+}
+
+.sec_txt{
+    text-align: center;
+    float: left;
+    max-width: 50%;
+    padding: 20px;
+}
+
+
+#pokeinfo{
+    text-align: justify;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.image{
+    width: 200px;
+}
+
+.sec_nav{
+    margin-left: 30px;
+}
+
+nav{
+    float: right;
+}
+
+.list{
+    list-style-type: none;
+    margin-top: 50px;
+}
+
+.item{
+    margin: 0px 20px 20px 0px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.pika{
+    border: 3px solid yellow;
+    box-shadow: 2px 2px 5px rgba(255, 255, 0, 0.5);
+}
+
+.pika:hover{
+    background-image: linear-gradient( yellow, transparent);
+    color: black;
+    transition-duration: 1.5s;
+}
+
+.bulba{
+    border: 3px solid greenyellow
+}
+
+.bulba:hover{
+    background-image: linear-gradient( green, transparent);
+    color: black;
+    transition-duration: 1.5s;
+}
+
+.charm{
+    border: 3px solid orange;
+}
+
+.charm:hover{
+    background-image: linear-gradient( orange, transparent);
+    color: black;
+    transition-duration: 1.5s;
+}
+
+.squir{
+    border: 3px solid lightskyblue;
+}
+
+.squir:hover{
+    background-image: linear-gradient( lightskyblue, transparent);
+    color: black;
+    transition-duration: 1.5s;
+}
